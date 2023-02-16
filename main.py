@@ -30,12 +30,14 @@ def mafia_game_randomizer(number_of_players):
         for number in list_of_numbers:
             
             dictionary_of_roles[list_of_player_names[number]] = positions_for_number_players[randomized_numbers_list[number]]
+            
+        print("\n\n\n\n")
         
         for key, value in dictionary_of_roles.items():
             
             print(key + ' is the ' + value)
             
-        print("\n\n\n\n\n\n\n\n\n\n\n")
+        print("\n\n\n\n")
         
     else:
         
@@ -66,7 +68,7 @@ def mafia_game(dictionary_of_roles):
                 
                 person_saved = person_healer_to_save
                 
-                print("\n\n\n\n\n\n\n\n\n\n\n")
+                print("\n\n\n\n")
                         
             else:
                         
@@ -99,14 +101,18 @@ def mafia_game(dictionary_of_roles):
                     if dictionary_of_roles[person_detective_to_check] == "Mafia":
                             
                         print("Yes, they are Mafia")
+                        
+                        input("Press enter to continue")
                             
-                        print("\n\n\n\n\n\n\n\n\n\n\n")
+                        print("\n\n\n\n")
                             
                     else:
                             
                         print("No, they are not Mafia")
+                        
+                        input("Press enter to continue")
                             
-                        print("\n\n\n\n\n\n\n\n\n\n\n")
+                        print("\n\n\n\n")
                             
                 else:
                         
@@ -148,6 +154,8 @@ def mafia_game(dictionary_of_roles):
                     
                     print("No one has been killed tonight")
                     
+                    input("Press enter to continue")
+                    
             else:
                     
                 pass
@@ -172,6 +180,8 @@ def mafia_game(dictionary_of_roles):
         
         print(person_mafia_to_kill_list + ' has been killed tonight')
         
+        input("Press enter to continue")
+        
     else:
         
         pass
@@ -184,7 +194,7 @@ def mafia_game(dictionary_of_roles):
         
         pass
         
-        print("\n\n\n\n\n\n\n\n\n\n\n")
+        print("\n\n\n\n")
 
     #this is the town function
     
@@ -195,6 +205,8 @@ def mafia_game(dictionary_of_roles):
             del dictionary_of_roles[person_village_killed]
         
             print(person_village_killed + " has been killed by the town")
+            
+            input("Press enter to continue")
             
         else:
             
@@ -210,7 +222,7 @@ def mafia_game(dictionary_of_roles):
         
         if len(dictionary_of_roles) <= 3:
             
-            print("Game over, the Mafia wins")
+            print("\nGame over, the Mafia wins")
             
         else:
             
@@ -221,17 +233,21 @@ def mafia_game(dictionary_of_roles):
             for key in dictionary_of_roles.keys():
             
                 print(key)
+                
+            input("Press enter to continue")
             
-            print("\n\n\n\n\n\n\n\n\n\n\n")
+            print("\n\n\n\n")
             
             mafia_game(dictionary_of_roles)
             
     else:
     
-        print("Game is over, the town wins")
+        print("\nGame is over, the town wins")
 
 #Implementing the functions from above
 
 print("\nWelcome to Mafia, I hope you have fun! - Harjot Dhaliwal\n")
+
 mafia_game_randomizer(input("How many Players are there: "))
+
 mafia_game(dictionary_of_roles)
