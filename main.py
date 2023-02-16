@@ -244,7 +244,7 @@ def mafia_game(dictionary_of_roles):
     
         print("\nGame is over, the town wins")
 
-#Implementing the functions from above
+#implementing the functions from above
 
 print("\nWelcome to Mafia, I hope you have fun! - Harjot Dhaliwal\n")
 
