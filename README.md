@@ -4,6 +4,11 @@ A game which assigns random roles to 6 players with 1 player being an imposter c
 
 # How to open
 
+mkdir Mafia.py
+cd Mafia.py
+git clone https://github.com/user/python_mafia_game_project.git
+python3 Mafia.py
+
 1. Copy and paste code in Main.py into a text editor
 2. Save file onto your computer as "Mafia.py"
 3. Navigate to file location in your bash terminal
@@ -16,10 +21,10 @@ Please select one person as the moderator and allow only them to input commands 
 
 # Roles
 
-Detective = Can choose one person each night to check if they are mafia (moderator nods or shakes head) and can vote at the end of each round for who they would like to kill during the town meeting
+Detective: Can choose one person each night to check if they are mafia (moderator nods or shakes head) and can vote at the end of each round for who they would like to kill during the town meeting
 
-Villagers = Can vote at the end of each round for who they would like to kill during the town meeting
+Villagers: Can vote at the end of each round for who they would like to kill during the town meeting
 
-Healer    = Can choose one person who they would like to save from getting killed by the mafia for that round and can vote at the end of each round for who they would like to kill during the town meeting
+Healer: Can choose one person who they would like to save from getting killed by the mafia for that round and can vote at the end of each round for who they would like to kill during the town meeting
 
-Mafia     = Can choose one person who they would like to kill that round and can vote at the end of each round for who they would like to kill during the town meeting
+Mafia: Can choose one person who they would like to kill that round and can vote at the end of each round for who they would like to kill during the town meeting
