@@ -61,7 +61,7 @@ def mafia_game(dictionary_of_roles):
                 
                 print('Error, this person is already dead, please try again')
                 
-                healer_function(input('Who would you like to save tonight: '))
+                healer_function(input('Healer: Who would you like to save tonight: '))
             
             elif value == "Healer":
                 
@@ -79,7 +79,7 @@ def mafia_game(dictionary_of_roles):
         
         if value == "Healer":
             
-            healer_function(input('Who would you like to save tonight: '))
+            healer_function(input('Healer: Who would you like to save tonight: '))
             
         else:
             
@@ -96,7 +96,7 @@ def mafia_game(dictionary_of_roles):
                     
                     print('Error, this person is already dead, please try again')
                     
-                    detective_function(input("Who would you like to check tonight: "))
+                    detective_function(input("Detective: Who would you like to check tonight: "))
                     
                 elif value == "Detective":
                         
@@ -124,7 +124,7 @@ def mafia_game(dictionary_of_roles):
         
         if value == "Detective":
             
-                detective_function(input("Who would you like to check tonight: "))
+                detective_function(input("Detective: Who would you like to check tonight: "))
                 
         else:
             
@@ -141,7 +141,7 @@ def mafia_game(dictionary_of_roles):
                 
                 print("Error, this person is already dead, please try again'")
                 
-                mafia_function(input("Who would you like to kill tonight: "))
+                mafia_function(input("Mafia: Who would you like to kill tonight: "))
                 
             elif value == "Mafia":
             
@@ -171,7 +171,7 @@ def mafia_game(dictionary_of_roles):
         
         if value == "Mafia":
             
-            mafia_function(input("Who would you like to kill tonight: "))
+            mafia_function(input("Mafia: Who would you like to kill tonight: "))
                 
         else:
             
