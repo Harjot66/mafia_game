@@ -4,15 +4,10 @@ A game which assigns random roles to 6 players with 1 player being an imposter c
 
 # How to open
 
-mkdir Mafia.py
-cd Mafia.py
-git clone https://github.com/user/python_mafia_game_project.git
-python3 Mafia.py
-
 1. Copy and paste code in Main.py into a text editor
 2. Save file onto your computer as "Mafia.py"
 3. Navigate to file location in your bash terminal
-4. Type in "python3 Mafia.py" and enter
+4. Type in "python3 Mafia.py" and press enter
 5. Have the game open in the terminal with the window being vertically minimized to 5 lines
 
 # How to play
