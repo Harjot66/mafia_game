@@ -50,7 +50,8 @@ def mafia_game_randomizer(number_of_players):
 
 def mafia_game(dictionary_of_roles):
     
-    #this is the healer function
+#this is the healer function where the healer is able to choose who they would like to
+#save that round
     
     def healer_function(person_healer_to_save):
     
@@ -84,7 +85,8 @@ def mafia_game(dictionary_of_roles):
             
             pass
 
-    #this is the detective function
+#this is the detective function where the detective will get to choose who they
+#would like to check
         
     def detective_function(person_detective_to_check):
         
@@ -128,7 +130,8 @@ def mafia_game(dictionary_of_roles):
             
             pass
 
-    #this is the mafia function
+#this is the mafia function where the mafia can choose who they would like to kill
+#that round as well as check if the mafia is still alive
     
     def mafia_function(person_mafia_to_kill):
         
@@ -196,7 +199,7 @@ def mafia_game(dictionary_of_roles):
         
         print("\n\n\n\n")
 
-    #this is the town function
+#this is the town function which asks the town who they would like to kill
     
     def town_kill(person_village_killed):
     
@@ -216,7 +219,8 @@ def mafia_game(dictionary_of_roles):
             
     town_kill(input("Who would the town like to kill today: "))
 
-    #this is the game ending code
+#this is the game ending code checks if the number of players is less than 3 or if
+#the mafia is still alive, both of which are game ending results
 
     if "Mafia" in dictionary_of_roles.values():
         
@@ -244,9 +248,29 @@ def mafia_game(dictionary_of_roles):
     
         print("\nGame is over, the town wins")
 
-#implementing the functions from above
+#printing some introductory text for the moderator
 
-print("\nWelcome to Mafia, I hope you have fun! - Harjot Dhaliwal\n")
+print("""\n
+      Please select one person as the moderator and allow only them to input commands\n
+      into the terminal. There will be a screen showing all players and their randomly\n
+      assigned roles, therefore please ensure the screen is not pointed towards any of the\n
+      players. Seceretly whisper to or text each player their roles. Each round ask all players\n
+      to close their eyes, and then one-by-one, ask each player with the assigned role on screen\n
+      to open their eyes to answer. At the end of each round, announce which players are still\n
+      alive
+      \n""")
+
+print("""
+      This game has been programmed by https://github.com/Harjot66
+      """)
+
+print("""\n
+      Welcome to Mafia, I hope you have fun! - Harjot Dhaliwal
+      \n""")
+
+input("Press enter to continue\n")
+
+#calling the functions from above
 
 mafia_game_randomizer(input("How many Players are there: "))
 
