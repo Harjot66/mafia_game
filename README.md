@@ -7,7 +7,7 @@ A game which assigns random roles to 6 players with 1 player being an imposter c
 In the terminal enter:
 ```
 cd desktop
-git clone https://github.com/Harjot66/python_mafia_game.git
+git clone https://github.com/Harjot66/mafia_game.git
 python3 python_mafia_game
 ```
 
