@@ -8,7 +8,7 @@ In the terminal enter:
 ```
 cd desktop
 git clone https://github.com/Harjot66/mafia_game.git
-python3 python_mafia_game
+python3 mafia_game
 ```
 
 # How to play
