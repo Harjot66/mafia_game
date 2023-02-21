@@ -19,10 +19,10 @@ Please select one person as the moderator and allow only them to input commands 
 
 # Roles
 
-Detective: Can choose one person each night to check if they are mafia (moderator nods or shakes head) and can vote at the end of each round for who they would like to kill during the town meeting
+Detective: Can choose one person each night to check if they are mafia (moderator nods or shakes head) and can vote at the end of each round for who they would like to kill during the town meeting.
 
-Villagers: Can vote at the end of each round for who they would like to kill during the town meeting
+Villagers: Can vote at the end of each round for who they would like to kill during the town meeting.
 
-Healer: Can choose one person who they would like to save from getting killed by the mafia for that round and can vote at the end of each round for who they would like to kill during the town meeting
+Healer: Can choose one person who they would like to save from getting killed by the mafia for that round and can vote at the end of each round for who they would like to kill during the town meeting.
 
-Mafia: Can choose one person who they would like to kill that round and can vote at the end of each round for who they would like to kill during the town meeting
+Mafia: Can choose one person who they would like to kill that round and can vote at the end of each round for who they would like to kill during the town meeting.
