@@ -4,6 +4,8 @@ A game which assigns random roles to 6 players with 1 player being an imposter c
 
 # How to open
 
+Prior to running program you must have git and python installed
+
 In the terminal enter:
 ```
 cd desktop
